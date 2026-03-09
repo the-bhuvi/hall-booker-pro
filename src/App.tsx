@@ -32,7 +32,7 @@ const App = () => (
               },
             }}
           />
-          <BrowserRouter>
+          <BrowserRouter basename="/hall-booker-pro">
             <Routes>
               <Route path="/" element={<Index />} />
               <Route path="/login" element={<Login />} />
